@@ -13,7 +13,7 @@ This is a simple REST API built with Python and FastAPI that performs basic CRUD
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/Shreyanshjain1008/REST_API.git
+    git clone https://github.com/Shreyanshjain1008/PRODIGY_BD_01.git
     cd REST_API
     ```
 
@@ -23,9 +23,6 @@ This is a simple REST API built with Python and FastAPI that performs basic CRUD
     python -m venv venv
     .\venv\Scripts\activate
 
-    # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
     ```
 
 3.  **Install dependencies:**
@@ -35,7 +32,7 @@ This is a simple REST API built with Python and FastAPI that performs basic CRUD
 
 4.  **Run the server:**
     ```sh
-    uvicorn main:app --reload
+    uvicorn app.main:app --reload
     ```
 
 5.  **Access the API:**
